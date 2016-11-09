@@ -1,4 +1,4 @@
-def fizzbuzz(n):
+def fizzbuzz(num):
     msg = ''
     if num % 3 == 0:
         msg += 'Fizz'
@@ -6,5 +6,5 @@ def fizzbuzz(n):
         msg += 'Buzz'
     return msg or num
 
-for num in range(1, 101):
-    print(fizzbuzz(num))
+
+print(fizzbuzz(1))
