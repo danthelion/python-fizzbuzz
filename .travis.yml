@@ -1,4 +1,8 @@
 language: python
 python:
   - "3.5"
+# command to install dependencies
+install:
+  - pip install pytest
+# command to run tests
 script: pytest fizbuzz-test.py

@@ -9,7 +9,8 @@ import pytest
         (5, 'Buzz'),
         (10, 'Buzz'),
         (15, 'FizzBuzz'),
-        (16, '16')
+        (16, '16'),
+        (30, 'FizzBuzz')
     ]
 )
 def test_fizzbuzz(number, word):
