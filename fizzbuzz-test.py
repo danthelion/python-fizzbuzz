@@ -11,7 +11,6 @@ import pytest
         (15, 'FizzBuzz'),
         (16, 16),
         (30, 'FizzBuzz'),
-        (99, 'nyilvan nem jo'),
         (4, 4)
     ]
 )
