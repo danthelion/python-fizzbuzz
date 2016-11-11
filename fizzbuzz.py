@@ -7,4 +7,4 @@ def fizzbuzz(num):
     return msg or num
 
 
-print(fizzbuzz(1))
+print(fizzbuzz(100))
