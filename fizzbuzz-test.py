@@ -11,8 +11,7 @@ import pytest
         (15, 'FizzBuzz'),
         (16, 16),
         (30, 'FizzBuzz'),
-        (4, 4),
-        (31, 'Valszeg nem jo')
+        (4, 4)
     ]
 )
 def test_fizzbuzz(number, word):
